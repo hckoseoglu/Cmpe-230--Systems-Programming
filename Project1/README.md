@@ -1,1 +1,1 @@
-Refer to the file Documentation for the full docs and explanation of the project
+Refer to the file Documentation for the full docs and Project_Explanation for the explanation of the project
