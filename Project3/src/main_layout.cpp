@@ -390,7 +390,7 @@ void MainLayout::restartGame() {
     hintPressedCount = 0;
     hintRow = -1;
     hintCol = -1;
-    *grid = createMap(getRows(), getCols(), 10);
+    *grid = createMap(getRows(), getCols(), numMines);
     for (int i = 0; i < getRows(); i++) {
         for (int j = 0; j < getCols(); j++){
             setRevealed(i, j, false);
